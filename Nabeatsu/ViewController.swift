@@ -63,5 +63,6 @@ class ViewController: UIViewController {
     @IBAction func clearButton(){
         number = 0
         countLabel.text = String(number)
+        faceLabel.text = "(゜o゜)"
     }
 }
