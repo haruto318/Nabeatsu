@@ -46,6 +46,9 @@
                                 <state key="normal" title="Clear">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="clearButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="ikh-XE-m3e"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="aCq-Ni-NFL"/>
