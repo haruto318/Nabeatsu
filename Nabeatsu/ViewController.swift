@@ -20,24 +20,30 @@ class ViewController: UIViewController {
     }
     
     func isAho() -> Bool {
-        var check: Bool = false
         if number % 3 == 0{
-            check = true
-        } else if number % 10 == 3{
-            check = true
-        } else if number / 10 % 10  == 3{
-            check = true
-        } else {
-            var num: Int = number
-            while(number != 0){
-                if number % 10 == 3{
-                    check = true
-                } else {
-                    num = num / 10
-                }
+            return true
+        }
+//        if number % 10 == 3{
+//            return true
+//        }
+//        if number / 10 % 10  == 3{
+//            return true
+//        }
+        var num: Int = number
+        while num != 0 {
+            if num % 10 == 3{
+                return true
+            } else {
+                num = num / 10
             }
         }
-        return check
+        
+//        一の位と十の位の数字が同じとき
+        if number % 10  == number / 10 % 10  {
+            return true
+        }
+
+        return false
     }
     
     
@@ -53,7 +59,4 @@ class ViewController: UIViewController {
             faceLabel.text = "(゜o゜)"
         }
     }
-
-
 }
-

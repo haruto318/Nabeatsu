@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		643AAEAB2A00FF5900504AC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643AAEAA2A00FF5900504AC8 /* ViewController.swift */; };
 		E24828C01EF6EE4100203A63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24828BF1EF6EE4100203A63 /* AppDelegate.swift */; };
 		E24828C51EF6EE4100203A63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24828C31EF6EE4100203A63 /* Main.storyboard */; };
 		E24828C71EF6EE4100203A63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24828C61EF6EE4100203A63 /* Assets.xcassets */; };
@@ -14,9 +15,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		643AAEAA2A00FF5900504AC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E24828BC1EF6EE4100203A63 /* Nabeatsu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nabeatsu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24828BF1EF6EE4100203A63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E24828C11EF6EE4100203A63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E24828C41EF6EE4100203A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E24828C61EF6EE4100203A63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E24828C91EF6EE4100203A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				E24828BF1EF6EE4100203A63 /* AppDelegate.swift */,
-				E24828C11EF6EE4100203A63 /* ViewController.swift */,
 				E24828C31EF6EE4100203A63 /* Main.storyboard */,
 				E24828C61EF6EE4100203A63 /* Assets.xcassets */,
 				E24828C81EF6EE4100203A63 /* LaunchScreen.storyboard */,
 				E24828CB1EF6EE4100203A63 /* Info.plist */,
+				643AAEAA2A00FF5900504AC8 /* ViewController.swift */,
 			);
 			path = Nabeatsu;
 			sourceTree = "<group>";
@@ -136,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				643AAEAB2A00FF5900504AC8 /* ViewController.swift in Sources */,
 				E24828C01EF6EE4100203A63 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
